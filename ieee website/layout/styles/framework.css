@@ -43,7 +43,7 @@ blockquote::before{display:block; position:absolute; top:0; left:0; font-family:
 .clear::before, .clear::after, .group::before, .group::after{display:table; content:"";}
 .clear, .clear::after, .group, .group::after{clear:both;}
 
-a{outline:none; text-decoration:none;}
+a{outline:none; text-decoration:none;font-size: 15px;text-decoration: none;}
 
 .fl_left, .imgl{float:left;}
 .fl_right, .imgr{float:right;}
