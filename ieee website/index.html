@@ -31,61 +31,218 @@
     <link rel="stylesheet" href="css/etlinefont.css">
     <link href="css/style.css" type="text/css"  rel="stylesheet"/>
 
-
-   <!-- The HTML5 shim, for IE6-8 support of HTML5 elements -->
-        <!--[if lt IE 9]>
-        <script src="js/html5shiv.js"></script>
-        <script src="js/respond.min.js"></script>
-        <![endif]-->
-    
-<body >
-   <!--Start Navigation-->
+    <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <style>
+      .about {
+        position: relative;
+      
+        width: 100%;
+        padding: 45px 0;
+      }
+      
+      .about .section-header {
+        margin-bottom: 30px;
+        margin-left: 0;
+      }
+      
+      .about .about-img {
+        position: relative;
+        height: 100%;
+        margin: 60px 0 0 60px;
+      }
+      
+      .about .about-img img {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        z-index: 1;
+      }
+      
+      .about .about-img::before {
+        position: absolute;
+        content: "";
+        top: -60px;
+        right: 60px;
+        bottom: 60px;
+        left: -60px;
+        background: #1d2434;
+        z-index: 0;
+      }
+      
+      .about .about-img::after {
+        position: absolute;
+        content: "";
+        top: -30px;
+        right: 30px;
+        bottom: 30px;
+        left: -30px;
+        background: transparent;
+        border: 1px solid #ffffff;
+        z-index: 2;
+      }
+      
+      .about .about-text p {
+        font-size: 16px;
+      }
+      
+      .about .about-text a.btn {
+        position: relative;
+        margin-top: 15px;
+        padding: 12px 25px;
+        font-size: 16px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: #1d2434;
+        border: 2px solid #1d2434;
+        border-radius: 0;
+        background: none;
+        transition: .3s;
+      }
+      
+      .about .about-text a.btn:hover {
+        color: #D5B981;
+        background: #1d2434;
+      }
+      
+      @media (max-width: 767.98px) {
+        .about .about-img {
+            margin-bottom: 30px;
+            height: auto;
+        }
+      }
+      
+    </style>
+   
+    <body id="top">
+         <!--Start Navigation-->
 		<header id="header">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
-								<span class="sr-only">Toggle navigation</span>
-								<span class="fa fa-bars"></span>
-								<span class="icon-bar"></span>
-								<span class="icon-bar"></span>
-							</button>
-                            <!--Start Logo -->
-							<div class="logo-nav">
-								<a href="index.html">
-									<img src="images/logo.png" alt="Company logo" />
-								</a>
-							</div>
-                            <!--End Logo -->
-							<div class="clear-toggle"></div>
-							<div id="main-menu" class="collapse scroll navbar-right">
-								<ul class="nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="fa fa-bars"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <!--Start Logo -->
+                        <div class="logo-nav">
+                            <a href="index.html">
+                                <img src="images/logo.png" alt="Company logo" />
+                            </a>
+                        </div>
+                        <!--End Logo -->
+                        <div class="clear-toggle"></div>
+                        <div id="main-menu" class="collapse scroll navbar-right">
+                            <ul class="nav">
+                            
+                                <li class="active"> <a href="#home">Home</a> </li>
                                 
-									<li class="active"> <a href="#home">Home</a> </li>
-									
-									<li> <a href="#about">About</a> </li>
+                                <li> <a href="#about">About</a> </li>
+                                
+                                <li> <a href="#history">History</a> </li>
+                                
+                                <li> <a href="#works">Our Work</a> </li>
+                                
+                                 <li> <a href="#team">Team</a> </li>
+                               
+                                <li> <a href="#services">Services</a> </li>
+                                                                    
+                                <li> <a href="#blog">Blog</a></li>
+                                
+                                <li> <a href="#testimonials">Testimonials</a></li>
+                                 
+                                <li> <a href="#contact">Contact</a> </li>
                                     
-                                    <li> <a href="#history">History</a> </li>
-                                    
-                                    <li> <a href="#works">Our Work</a> </li>
-                                    
-                                     <li> <a href="#team">Team</a> </li>
-                                   
-								    <li> <a href="#services">Services</a> </li>
-																		
-									<li> <a href="#blog">Blog</a></li>
-                                    
-                                    <li> <a href="#testimonials">Testimonials</a></li>
-                                     
-									<li> <a href="#contact">Contact</a> </li>
-										
-								</ul>
-							</div><!-- end main-menu -->
-						</div>
-					</div>
-				</div>
-			</header>
-    <!--End Navigation-->
+                            </ul>
+                        </div><!-- end main-menu -->
+                    </div>
+                </div>
+            </div>
+        </header>
+<!--End Navigation-->
+
+        <!-- Top Background Image Wrapper -->
+        <div class="bgded" style="background-image:url('images/demo/backgrounds/01.jpg');"> 
+         <div class="overlay">
+            <div id="pageintro" class="hoc clear"> 
+              <article>
+                <h3 class="heading">Dapibus ligula convallis</h3>
+                <p>A massa etiam augue nunc lectus duis eget libero non nisi lobortis suscipit praesent viverra nam dapibus orci non erat aliquam erat volutpat.</p>
+                <footer><a class="btn" href="#">Gravida sem neque</a></footer>
+              </article>
+            </div>
+          </div>
+        </div>
+        <!-- End Top Background Image Wrapper -->
+        <div class="wrapper row3">
+          <main class="hoc container clear"> 
+            <section id="introblocks">
+              <ul class="nospace group btmspace-80">
+                <li class="one_third first">
+                  <figure><a class="imgover" href="#"><img src="images/demo/1.jpg" alt=""></a>
+                    <figcaption>
+                      <h6 class="heading">Mollis suscipit</h6>
+                      <div>
+                        <p>Eu adipiscing sit amet ante donec vulputate magna duis posuere tellus vel fringilla auctor nisi arcu.</p>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="one_third">
+                  <figure><a class="imgover" href="#"><img src="images/demo/3.jpg" alt=""></a>
+                    <figcaption>
+                      <h6 class="heading">Vestibulum maecenas</h6>
+                      <div>
+                        <p>Urna at congue lectus nisi ac neque suspendisse vitae sapien eu mi placerat tincidunt sed eget elit in.</p>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+                <li class="one_third">
+                  <figure><a class="imgover" href="#"><img src="images/demo/3.jpg" alt=""></a>
+                    <figcaption>
+                      <h6 class="heading">Pellentesque enim</h6>
+                      <div>
+                        <p>Imperdiet pede sit amet elit aenean sollicitudin eros quis cursus feugiat lacus diam tempor tortor vel.</p>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </li>
+              </ul>
+            </section>
+            <!-- ################################################################################################ -->
+            <hr class="btmspace-80">
+            <!-- ################################################################################################ -->
+            <!-- About Start -->
+        <div class="about">
+          <div class="container">
+           <div class="row align-items-center">
+               <div class="col-lg-5 col-md-6">
+                   <div class="about-img">
+                      <img src="images/demo/2.jpg" alt="Image">
+                   </div>
+               </div>
+               <div class="col-lg-7 col-md-6">
+                   <div class="section-header text-left">
+          
+                       <h2>Learn About Us</h2>
+                   </div>
+                   <div class="about-text">
+                       <p>
+                        Welcome to clubix. A website for all students that are a part of  iset bizerte where you can find all the clubs and learn about them and there events .This website does not only give you an opportunity to develop yourself in all aspects but it also help you to be more active and assure you a better experience at college. So Join us to be a part of our family
+                       </p>
+          
+                   </div>
+               </div>
+           </div>
+          </div>
+        
+          <!-- About End -->
+  
 
       
     
@@ -134,16 +291,13 @@
   </section>
   <!--End Facts-->
 
-    <!-- ----------------------------------------cards---------------------------------------------- -->
 	
-    <div class="title-group-card" >
+
 	
         <div style="margin-top: 5%;" class="title-box text-center">
             <h2 class="title">Our Team</h2>
          </div>
-         
-         
-         
+       
         </div>
     <div class="body-card">
     
@@ -274,7 +428,7 @@
         </div>
     </div>
     
-        <!-- ----------------------------------------cards---------------------------------------------- -->
+        <!------------------------------------------cards------------------------------------------------>
     
   
                          
@@ -456,7 +610,10 @@
     <script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
     <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
-    
+    <!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
  </body>
 </html>
 
