@@ -141,3 +141,27 @@
     transform: translateY(-120px);
     transition: .5s;
 }
+@media screen and (max-width: 700px) {
+    .body-card{
+      
+        display: grid;
+        grid-template-rows: 2fr 2fr;
+        grid-template-columns: 1fr 1fr;
+        margin-right: -30px;
+        margin-left: -35px;
+        
+        background:rgb(231, 231, 231);
+        
+   
+      }
+    .card {
+        box-sizing: border-box;
+    position: relative;
+    width: 250px;
+    height: 350px;
+    border-radius: 15px;
+   margin-bottom: 15px;
+    transition: .5s;
+    margin-left: 17%;
+    }
+  }
