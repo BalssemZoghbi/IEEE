@@ -141,7 +141,7 @@
     transform: translateY(-120px);
     transition: .5s;
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1300px) {
     .body-card{
       
         display: grid;
