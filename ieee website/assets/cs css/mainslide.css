@@ -6,8 +6,8 @@ body{
 }
 .sectionn{
 	position: absolute;
-	top: 500%;
-	left: 50%;
+	bottom: -460%;
+	left: 47%;
 	transform: translateX(-50%);
 }
 .slideShow{
