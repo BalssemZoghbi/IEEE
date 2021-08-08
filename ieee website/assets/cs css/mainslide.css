@@ -6,7 +6,7 @@ body{
 }
 .sectionn{
 	position: absolute;
-	top: 460%;
+	top: 500%;
 	left: 50%;
 	transform: translateX(-50%);
 }
