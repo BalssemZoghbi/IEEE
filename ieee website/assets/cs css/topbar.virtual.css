@@ -382,7 +382,9 @@
 
 .post-grid .card {
   margin: 2rem auto;
-  max-width: 320px;
+  max-width: 900px;
+  width: 87%;
+  height: 70%;
   border: 0;
   background-color: #fff;
   -webkit-transition: box-shadow .3s ease;
@@ -397,6 +399,9 @@
 
 .post-grid .card .caption {
   padding: 20px 16px;
+  margin-left: 15%;
+  width: 120%;
+  text-align: center;
 }
 
 .post-grid .post-category {
