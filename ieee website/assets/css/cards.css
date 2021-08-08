@@ -8,7 +8,9 @@
     height: 100vh;
     margin-top: -17%;
   }
-  
+  .iconcard{
+      color: rgba(9, 9, 48, 0.836);
+  }
   .heading {
     color: black;
     text-align: center;
@@ -130,7 +132,7 @@
     width: 120px;
     padding: 7px;
     margin: 10px 0;
-    background-color: tomato;
+    background-color: rgba(9, 9, 48, 0.836);
     border: none;
     outline: none;
     border-radius: 25px;
