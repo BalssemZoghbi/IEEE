@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 } */
+/* dddd */
 .body-slide-member{
   margin-top: -5%;
   display: flex;
@@ -31,6 +32,18 @@
   justify-content: center;
   padding: 0 25px;
 }
+/* dddd */
+/* @media screen and (max-width:1200px) {
+  
+  .inner-part{
+    display: flex;
+    height: 360px;
+    align-items: center;
+    justify-content: center;
+    padding: 0 25px;
+  }
+  
+  } */
 #imgTap:checked ~ .inner-part {
   padding: 0;
   transition: .1s ease-in;
@@ -102,6 +115,19 @@
   line-height: 1.5em;
   text-align: justify;
 }
+/* tansech mb of the month */
+@media screen and (max-width:1000px) {
+  
+  .content .text{
+    color: #4e4a67;
+    font-size: 19px;
+    margin-bottom: 30px;
+    line-height: 1.5em;
+    text-align: left;
+    margin-left: -9px;
+    width: 60%;
+  }
+  }
 .content button{
   display: inline-flex;
   padding: 15px 20px;

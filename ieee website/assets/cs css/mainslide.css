@@ -6,9 +6,19 @@ body{
   }
   .sectionn{
 	position: absolute;
-	bottom: -420%;
+	/* bottom: -420%; */
 	left: 47%;
 	transform: translateX(-50%);
+  }
+  @media screen and (max-width:1200px) {
+  
+	.sectionn{
+		position: absolute;
+		left: 47%;
+		transform: translateX(-50%);
+	  }
+	
+  
   }
   .slideShow{
 	width: 190px;
