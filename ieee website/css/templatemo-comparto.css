@@ -69,7 +69,7 @@ h1, h2, h3, h4, h5, h6 { color: #333; }
 .tm-bg-color-1 { background-color: #9999CC; }
 .tm-bg-color-2 { background-color: #CC9999; }
 .tm-bg-color-3 { background-color: #666666; }
-.tm-bg-color-4 { background-color: white; } 
+.tm-bg-color-4 { background-color: #99CCFF; }
 .tm-bg-color-5 { background-color: #99CC99; }
 .tm-bg-color-6 { background-color: #F2F2F2; }
 .tm-bg-color-7 { background-color: #DDD; }
@@ -625,4 +625,33 @@ button:hover { cursor: pointer; }
   .contact-form-outer { margin-bottom: 20px; }
 
   .tm-contact-main { flex-direction: column; }
+}
+
+/* https://codepen.io/matthewcain/pen/ZepbeR */
+#button {
+  padding-top: 1px;
+  display: inline-block;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active { background-color: #555; }
+#button.show {
+  opacity: 1;
+  visibility: visible;
 }
