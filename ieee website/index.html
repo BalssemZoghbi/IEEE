@@ -30,7 +30,14 @@
     <link rel="stylesheet" type="text/css" href="css/animate.css" />
     <link rel="stylesheet" href="css/etlinefont.css">
     <link href="css/style.css" type="text/css"  rel="stylesheet"/>
+    <!-- <link href="scss/styles.css" type="text/css"  rel="stylesheet"/> -->
+
     <link href="css/footer.scss" type="text/css"  rel="stylesheet"/>
+    <link rel="stylesheet" type="text/css" href="assets/cs css/bootstrap.css">
+      
+  <link rel="stylesheet" type="text/css" href="assets/cs css/virtual.css">
+  
+  <link rel="stylesheet" type="text/css" href="assets/cs css/topbar.virtual.css">
 
     <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
     <!-- CSS only -->
@@ -118,54 +125,40 @@
       
     </style>
    
-    <body id="top">
-         <!--Start Navigation-->
-		<header id="header">
-            <div class="container">
-                <div class="row" style="margin-top: -6% !important ;">
-                    <div class="col-sm-12">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="fa fa-bars"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <!--Start Logo -->
-                        <div class="logo-nav">
-                            <a href="index.html">
-                                <img src="images/logo.png" alt="Company logo" />
-                            </a>
-                        </div>
-                        <!--End Logo -->
-                        <div class="clear-toggle"></div>
-                        <div id="main-menu" class="collapse scroll navbar-right">
-                            <ul class="nav" >
-                            
-                                <li class="active"> <a href="#home" style="text-decoration: none;">Home</a> </li>
-                                
-                                <li> <a href="#about" style="text-decoration: none;">About</a> </li>
-                                
-                                <li> <a href="#history" style="text-decoration: none;">History</a> </li>
-                                
-                                <li> <a href="#works" style="text-decoration: none;">Our Work</a> </li>
-                                
-                                 <li> <a href="#team" style="text-decoration: none;">Team</a> </li>
-                               
-                                <li> <a href="#services" style="text-decoration: none;">Services</a> </li>
-                                                                    
-                                <li> <a href="#blog" style="text-decoration: none;">Blog</a></li>
-                                
-                                <li> <a href="#testimonials" style="text-decoration: none;">Testimonials</a></li>
-                                 
-                                <li> <a href="#contact" style="text-decoration: none;">Contact</a> </li>
-                                    
-                            </ul>
-                        </div><!-- end main-menu -->
-                    </div>
-                </div>
-            </div>
-        </header>
-<!--End Navigation-->
+    <body >
+    
+  <div class="vg-page page-home" id="home" >
+    <!-- Navbar -->
+    <div class="navbar navbar-expand-lg navbar-dark sticky" data-offset="500">
+      <div class="container">
+        <a href="" class="navbar-brand">V-Folio</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#main-navbar" aria-expanded="true">
+          <span class="ti-menu"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="main-navbar">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a href="#home" class="nav-link" data-animate="scrolling">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#about" class="nav-link" data-animate="scrolling">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#portfolio" class="nav-link" data-animate="scrolling">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#blog" class="nav-link" data-animate="scrolling">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link" data-animate="scrolling">Contact</a>
+            </li>
+          </ul>
+          
+              <button class="btn">Sign up</button>
+            
+        </div>
+      </div>
+    </div> <!-- End Navbar -->
 
         <!-- Top Background Image Wrapper -->
         <div class="bgded" style="background-image:url('images/demo/backgrounds/01.jpg');"> 
@@ -216,9 +209,8 @@
               </ul>
             </section>
             <!-- ################################################################################################ -->
-         
-            <!-- ################################################################################################ -->
-            <!-- About Start -->
+         <br>        <br><br><br>
+
              <!-- About Start -->
              <div class="about">
                 <div class="container">
@@ -244,8 +236,7 @@
                 </div>
               </div>
                 <!-- About End -->
-        
-          <!-- About End -->
+        <br><br><br>
   
 
       
@@ -713,6 +704,10 @@
     <script type="text/javascript" src="js/custom.js"></script>
     <!-- JAVASCRIPTS -->
 <script src="layout/scripts/jquery.min.js"></script>
+<!-- <script src="js/jquery-3.5.1.min.js"></script> -->
+<script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="js/topbar-virtual.js"></script>
+
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
  </body>
