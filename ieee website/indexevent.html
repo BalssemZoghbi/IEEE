@@ -6,16 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400" rel="stylesheet" />
-    <link href="fontawesome/css/all.min.css" rel="stylesheet" />
-
+    <!-- <link href="ass" rel="stylesheet" /> -->
     <link href="css/templatemo-comparto.css" rel="stylesheet" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
+    <link href="css/eventbutton.scss" rel="stylesheet" />
+
     <title>Comparto HTML CSS Template</title>
-    <style>
-        button:hover{
-            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-        }
-    </style>
 <!--
 
 Comparto TemplateMo
@@ -26,22 +21,18 @@ https://templatemo.com/tm-544-comparto
 </head>
 
 <body>
-    <!-- Back to top button -->
-    <a id="button"><i class="fas fa-angle-up fa-2x"></i></a>
-    <div class="container-fluid" style="margin-top: 5%;">
-       
+  
         <section class="tm-bg-color-4 tm-mb-3 tm-gallery-section" id="gallery">
             <div class="tm-gallery-header">
-                <!-- <h2 class="tm-mb-1 text-right">.03 The Gallery Section</h2> -->
+                <h2 class="tm-mb-1 text-right">.03 The Gallery Section</h2>
                 <ul class="tm-gallery-filter tabs clearfix filters-button-group">
-                    <li><a role="button" href="#" class="active" data-filter="*"> <button type="button" class="btn btn-outline-dark" style="color: black;"> ALL</button> </a></li>
-                    . <li><a role="button" href="#" data-filter=".nature"><button type="button" class="btn btn-outline-dark"> CS</button> </a></li>
-                    . <li><a role="button" href="#" data-filter=".animals"><button type="button" class="btn btn-outline-dark"> RAS</button> </a></li>
-                    . <li><a role="button" href="#" data-filter=".people"><button type="button" class="btn btn-outline-dark"> IAS</button> </a></li>
+                  
+                    <li><a role="button" href="#" class="active" data-filter="*" class="btn">Show All</a></li>
+                     <li><a role="button" href="#" data-filter=".nature" class="btn cta">Nature</a></li>
+                     <li><a role="button" href="#" data-filter=".animals" class="btn cta bg">Animals</a></li>
+                     <li><a role="button" href="#" data-filter=".people" class="btn">People</a></li>
                 </ul>
-            </div> 
-
-            
+            </div>
             <div class="tm-gallery-outer">
                 <div class="tm-gallery" id="tm-gallery">
                     <div class="tm-gallery-item nature">
@@ -76,7 +67,7 @@ https://templatemo.com/tm-544-comparto
                     </div>
                     <div class="tm-gallery-item nature">
                         <figure class="effect-bubba">
-                            <img src="images/ras/bb.jpg" alt="Gallery item" class="tm-img-responsive" />
+                            <img src="images/ras/aa.png" alt="Gallery item" class="tm-img-responsive" />
                             <figcaption>
                                 <h2>Free <span>HTML</span></h2>
                                 <p>HTML layouts are easy to edit.</p>
@@ -104,7 +95,7 @@ https://templatemo.com/tm-544-comparto
                             </figcaption>
                         </figure>
                     </div>
-                    <div class="tm-gallery-item people">
+                    <div class="tm-gallery-item peopl">
                         <figure class="effect-bubba">
                             <img src="images/ras/aa.png" alt="Gallery item" class="tm-img-responsive" />
                             <figcaption>
@@ -148,11 +139,10 @@ https://templatemo.com/tm-544-comparto
             </div>
         </section> <!-- Gallery -->
         
-    </div> <!-- .container -->
+              
     <script src="js/jquery.min.js"></script> <!-- https://jquery.com/download/ -->
     <script src="js/imagesloaded.pkgd.min.js"></script> <!-- https://imagesloaded.desandro.com/ -->
     <script src="js/isotope.pkgd.min.js"></script> <!-- https://isotope.metafizzy.co/ -->
-    <script src="assets/js/events.js"></script> 
     <script src="js/jquery.singlePageNav.min.js"></script> <!-- https://github.com/ChrisWojcik/single-page-nav -->
     <script>
 
