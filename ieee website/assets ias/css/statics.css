@@ -2,11 +2,8 @@
 
 .sectionstat{
  
-  background: url("images/bg-1.jpg") no-repeat;
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  /* background: url("images/bg-1.jpg") no-repeat; */
+  background-color: white;
 }
 .wrapperstat{
   margin: 0;
@@ -26,7 +23,7 @@
   padding-bottom: 20px;
 }
 .counter-up{
-  background: url("../images/project-big-item-01.jpg") no-repeat;
+  /* background: url("../images/project-big-item-01.jpg") no-repeat; */
   min-height: 50vh;
   background-size: cover;
   background-attachment: fixed;
@@ -34,6 +31,9 @@
   position: relative;
   display: flex;
   align-items: center;
+  background-color: white;
+  color: #ccc;
+
 }
 .counter-up::before{
   position: absolute;
@@ -42,7 +42,8 @@
   left: 0;
   height: 100%;
   width: 100%;
-  background: rgba(0,0,0,0.8);
+  /* background: rgba(0,0,0,0.8); */
+  background-color: #5fb7597a;
 }
 .counter-up .content{
   z-index: 1;
@@ -64,19 +65,28 @@
   flex-direction: column;
   padding: 20px;
 }
+.contentstat{
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  padding: 5%;
+  margin:5%;
+  margin-left: 10%;
+  background-color: white;
+}
 .contentstat .box .icon{
+
   font-size: 48px;
-  color: #e6e6e6;
+  color: black!important;
 }
 .contentstat .box .counter{
   font-size: 50px;
   font-weight: 500;
-  color: #f2f2f2;
+  color: black!important;
   font-family: sans-serif;
 }
 .contentstat .box .text{
   font-weight: 400;
-  color: #ccc;
+  color: black !important;
 }
 @media screen and (max-width: 1036px) {
   .counter-up{
@@ -98,5 +108,9 @@
   }
   .counter-up{
     padding: 30px 20px 0 20px;
+  }
+  .contentstat{
+    display: grid;
+    grid-template-columns: auto auto;
   }
 }
