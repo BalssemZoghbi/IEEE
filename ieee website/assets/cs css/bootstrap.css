@@ -4438,7 +4438,6 @@ input[type="button"].btn-block {
     padding-left: 0;
   }
 }
-
 @media (min-width: 576px) {
   .navbar-expand-sm {
     -ms-flex-flow: row nowrap;
@@ -4719,8 +4718,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-toggler {
-  color: rgba(255, 255, 255, 0.5);
-  border-color: rgba(255, 255, 255, 0.1);
+  color: grey;
+  border-color: grey;
 }
 
 .navbar-dark .navbar-toggler-icon {

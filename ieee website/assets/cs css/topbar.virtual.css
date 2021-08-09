@@ -183,7 +183,7 @@
 .timeline li {
   position: relative;
   display: block;
-  padding-left: 30px;
+  /* padding-left: 30px; */
   margin-bottom: 20px;
 }
 

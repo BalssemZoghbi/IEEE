@@ -168,7 +168,13 @@ textarea:focus, input[type="text"]:focus, input[type="password"]:focus, input[ty
 	line-height: 32px;
 	text-transform: uppercase;
 }
-
+.title-box h2.sponsor{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 32px;
+    text-transform: uppercase;
+	margin-left: 400px;
+}
 .title-box h2:before {
 	bottom: 0;
 	content: "";
@@ -777,7 +783,7 @@ ul.timeline {
 	height: auto;
 	position: relative;
 	padding: 0 0 80px;
-	z-index:200;
+	z-index:0;
 }
 
 .timeline .year {
@@ -789,8 +795,8 @@ ul.timeline {
 	height: auto;
 	margin: 31px auto;
 	text-align: center;
-	width: 75px;
-	height:75px;
+	width: 90px;
+	height:80px;
 	border-radius:50%;
 	line-height:72px;
 	left: -35px;
