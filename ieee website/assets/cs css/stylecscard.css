@@ -192,3 +192,25 @@ input[type="checkbox"]{
   transform: scaleX(1);
   width: 100%;
 }
+@media (max-width:500px) {
+  .wrapperstat .title  {
+    font-size: 20px;
+  }
+  .content .text {
+    font-size: 15px;
+    width: 40%;
+  }
+  .content span {
+    font-size: 20px;
+  }
+  .inner-part .img {
+    width: 200px;
+  }
+  .sliders .tap {
+    width: 30px;
+  }
+  #imgTap:checked ~ .inner-part .img {
+    width: 465px;
+  }
+  
+}
