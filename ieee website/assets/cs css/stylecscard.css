@@ -192,7 +192,13 @@ input[type="checkbox"]{
   transform: scaleX(1);
   width: 100%;
 }
-@media (max-width:500px) {
+#month{
+  margin-top: 50%;
+}
+#month h2{
+  /* margin-top: 20%; */
+}
+@media (max-width:600px) {
   .wrapperstat .title  {
     font-size: 20px;
   }
@@ -212,5 +218,14 @@ input[type="checkbox"]{
   #imgTap:checked ~ .inner-part .img {
     width: 465px;
   }
-  
+  .content .title {
+    font-size: 20px;
+  }
+  #month{
+    margin-top: 168%;
+
+}
+.blog-card {
+  margin-top: -30%;
+}
 }
